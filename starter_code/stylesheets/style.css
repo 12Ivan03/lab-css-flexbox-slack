@@ -8,3 +8,440 @@ paragraph yellow: #ECB12F
 links blue: #2E71A6
 footer links grey: #454245
 */
+nav, header {
+    background-color: #540B51;
+}
+
+.nav-menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100vw;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.slack-logo {
+    height: 3rem;
+    margin-left: 2rem;
+}
+
+#drop-menu {
+    display: none;
+}
+
+.buttons-nav {
+    margin-right: 3rem;
+    display: flex;
+    justify-content: space-between;
+    width: 8rem;
+}
+
+.buttons-style {
+    background-color: #540B51;
+    border: none;
+    height: 2.5rem;
+}
+
+
+/* header section */
+
+.header-section {
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.header-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 3rem;
+}
+
+.header-info > h1 {
+    color: aliceblue;
+    font-size: 5rem;
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.header-info > p {
+    color: aliceblue;
+    font-size: 2rem;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 3rem;
+    background: linear-gradient(to right, #ddba4a 51%, white 49%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.header-buttons {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.buttons {
+    width: 95vw;
+    height: 4.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: x-large;
+    color: #540B51;
+    border-radius: 7px;
+}
+
+.buttons-two {
+    display: flex;
+    align-items: center;
+    height: 4.5rem;
+    background-color: #4285F4;
+    border: 1px solid 4285F4;
+    border-radius: 7px;
+    margin-top: 1rem;
+}
+
+.button-google-logo {
+    height: 3rem;
+    background-color: aliceblue;
+    border-radius: 7px;
+    margin: 0.5rem;
+}
+
+.button-two-text{
+    flex-grow: 0.93;
+    align-self: center;
+    font-size: x-large;
+    color: aliceblue;
+}
+
+.img-slack {
+    width: 100vw;
+    height: 47vh;
+    background-image: url(../images/hero-product-ui.png);
+    background-repeat: no-repeat;
+    background-position: cover;
+    background-size: 145%;
+}
+
+/* .slack-screenshot {
+    width: 100vw;
+    height: 15rem;
+    object-fit: cover;
+    object-position: 13% 0;
+    
+} */
+
+/* section ONE */
+main { 
+    width: 100vw;
+    background-color: #F3EAE2;
+    display: flex;
+    flex-direction: column;
+}
+
+.section-one {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 2rem 1rem 3rem 1rem;
+}
+
+.section-one-text {
+    
+    text-align: center;
+    flex-wrap: wrap;
+    font-size: 2.5rem;
+}
+
+.section-one-logos {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.companies-logo {
+    height: 4rem;
+    padding: 2rem 1rem 2rem 1rem;
+    
+}
+
+/* section two  */
+
+.connectedness-img-container {
+    height: 58vh;
+}
+
+.connectedness-img {
+    object-fit: contain;
+    object-position: 0 0;
+    width: 100vw;
+    height: 58vh;
+}
+
+.section-two-info {
+    margin: 0 1.5rem 0 1.5rem;
+}
+
+.section-two-info > h2 {
+    font-size: 3.5rem;
+}
+
+.section-two-info > p {
+    margin-top: 0;
+    font-size: 2.2rem;
+}
+
+.section-two-info > a {
+    font-size: 2.2rem;
+    text-decoration: none;
+    margin-bottom: 3rem;  
+}
+
+.section-two-info > a::after{
+    content: '\2192';
+    display:inline-block;
+    transform:scale(1,1);
+}
+
+
+/* section three to five*/
+
+.section-three, .section-four {
+    margin-top: 8rem;
+}
+
+.connectedness-img-three {
+    object-fit: contain;
+    object-position: 100% 0;
+    width: 100vw;
+    height: 58vh;
+}
+
+.section-four {
+    margin-bottom: 4rem;
+}
+/* section five */
+
+.section-five {
+    background-color: white !important;
+    padding-bottom: 6rem;
+}
+
+
+.section-five, .section-five > div, .slack-comunication-procent, .slack-comunication-procent > ul, .slack-comunication-procent > li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 0;
+}
+
+.section-five > h3 {
+    text-align: center;
+    font-size: 3.5rem;
+    margin: 6rem 4rem 1rem 4rem;
+}
+
+.section-five > p {
+    text-align: center;
+    margin: 0 2.5rem 1rem 2.5rem;
+    font-size: 2.2rem;
+}
+
+.section-five > div {
+    margin-bottom: 5rem;
+}
+
+.five-button-one, .five-button-two {
+    width: 95vw;
+    height: 6rem;
+    border-radius: 12px;
+    margin-top: 1.5rem;
+    font-size: 1.5rem;
+    direction: none;
+}
+
+.five-button-one {
+    background-color: #540B51;
+    border: 1px solid #540B51;
+    color: white;
+}
+
+.five-button-two{
+    color: #540B51;
+    border: 1px solid #540B51;
+}
+
+.five-com-procent > p > span {
+    font-size: 3.5rem;
+    color: #540B51;
+}
+
+.five-com-procent > p {
+    text-align: center;
+    width: 13rem;
+    font-weight: 900;
+}
+
+/* section six */
+
+.section-six {
+    background-color: #540B51;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 30rem;
+    padding-bottom: 3rem;
+}
+
+.section-six > h3 {
+    font-size: 3.5rem;
+    text-align: center;
+    padding: 0 3rem 0 3rem;
+    color: white;
+}
+
+.section-six > button {
+    width: 95vw;
+    height: 6rem;
+    border-radius: 12px;
+    margin-top: 1.5rem;
+    font-size: 1.5rem;
+    direction: none;
+}
+
+.six-button-one {
+    background-color: #540B51;
+    border: 1px solid white;
+    color: white;
+}
+
+.six-button-two {
+    color: #540B51;
+}
+
+/* footer */
+
+footer > img {
+    height: 4rem;
+    padding: 3rem 2rem;
+}
+
+footer > div:first-of-type {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+footer > div:first-of-type > ul > li {
+    list-style: none;
+    width: 6rem;
+    margin: 0 3rem 2rem 0;
+    font-size: large;
+}
+
+footer  div > ul > :first-child {
+    font-weight: 900;
+    margin-bottom: 2rem;
+}
+
+footer > ul  {
+    list-style: none;
+}
+
+footer > ul:first-of-type > li {
+    font-weight: bolder;
+    font-size: large;
+    margin-top: 2rem;
+}
+
+footer > ul:first-of-type > li:last-child {
+    color: #4285F4;
+    
+}
+
+footer > ul:first-of-type > li:last-child::before {
+    padding-right: .5rem;
+    content: url("../images/icon-download.png"); 
+}
+
+footer > ul:first-of-type > li:nth-last-child(2)::before {
+    padding-right: .5rem;
+    content: url(../images/icon-region.png)
+}
+
+footer > ul:last-of-type {
+    display: flex;
+    justify-content: space-between;
+    margin: 3rem 2rem;
+    padding: 0;
+}
+
+footer > ul:last-of-type >li {
+    height: 3rem;
+    width: 3rem;
+}
+
+footer > ul:last-of-type > li > i {
+    font-size: 3rem; 
+  }
+  
+footer div:last-child {
+ font-size: x-large;
+ font-weight: lighter;
+ letter-spacing: .05rem;
+ margin: 0 2rem 4rem 2rem ;
+}
+
+
+
+@media screen and (max-width: 440px) {
+ 
+    .header-info > h1 {
+        font-size: 3rem;
+    }
+        
+    .header-info > p { 
+        font-size: 1rem;
+    }
+
+    .companies-logo {
+        height: 2.5rem;
+        padding: 2rem .3rem 2rem .3rem;
+        
+    }
+    
+    .section-five > h3 {
+        text-align: center;
+        font-size: 2.5rem;
+        margin: 6rem 4rem 1rem 4rem;
+    }
+    
+    .section-five > p {
+        text-align: center;
+        margin: 0 2.5rem 1rem 2.5rem;
+        font-size: 1.5rem;
+    }
+    .slack-logo {
+        height: 2rem;
+        margin-left: 2rem;
+    }
+    
+    
+    .buttons-nav {
+        width: 4rem;
+    }
+
+    .buttons-style {
+        height: 1.5rem;
+    }
+}
