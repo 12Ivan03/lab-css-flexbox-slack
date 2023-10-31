@@ -1,0 +1,231 @@
+@media screen  and (min-width: 768px) and (max-width: 1024px ) {
+
+
+nav > div:last-child > ul {
+    display: none;
+}
+
+.header-section {
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    padding-bottom: 5rem;
+}
+
+
+.header-info {
+    width: 70vw;
+    align-items: flex-start;
+    margin: 3rem 3rem 3rem 1rem;
+}
+
+.header-info > h1 {
+    text-align: start;
+    width: 45vw;
+}
+
+.header-info > p {
+    text-align: start;
+}
+
+
+.buttons {
+    width: 60vw;
+    height: 3rem;
+    font-size: medium;
+}
+
+.buttons-two {
+    height: 3rem;
+}
+
+.button-google-logo {
+    height: 2rem;
+    margin: 0;
+}
+
+.button-two-text{
+    font-size: medium;
+}
+
+.img-slack {
+    width: 100vw;
+    height: 50vh;
+    background-image: url(../images/hero-product-ui.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position-x: left;
+}
+
+/* section one  */
+
+.section-one-text {
+    font-size: 1.5rem;
+}
+
+.companies-logo {
+    height: 2.2rem; 
+}
+
+/* section two  */
+
+.section-img {
+    content: url(../images/connectedness.png) !important ;
+    width: 90vw;
+}
+
+.section-two-info {
+    margin: 0 10rem 0 10rem;
+}
+
+.section-two-info > h2 {
+    font-size: 2.5rem;
+}
+
+.section-two-info > p {
+    
+    font-size: 1.8rem;
+}
+
+.section-two-info > a {
+    font-size: 1.5rem;
+}
+
+.section-two-info > a::after{
+    display: none;
+}
+
+/* section three */ 
+
+.connectedness-img-three {
+    content: url(../images/flexibility.png);    
+    height: 40vh;
+    object-fit: contain;
+}
+
+/* section four */
+
+.img-four {
+    content: url(../images/speed.png);
+    width: 85vw;
+    /* height: 40vh; */
+}
+
+.extra-info {
+    margin-right: 15rem;
+}
+
+/* section five */
+
+.section-five > div, .slack-comunication-procent {
+    display: flex;
+    flex-direction: row;
+}
+
+.section-five > h3 {
+    font-size: 2.5rem;
+}
+
+.section-five > p {
+    text-align: center;
+    font-size: 1.6rem;
+}
+
+.buttons-section-five {
+    display: flex;
+
+}
+
+.five-button-one, .five-button-two {
+    height: 4rem;
+    border-radius: 7px;
+}
+
+.five-button-one {
+    width: 23rem;
+    margin-right: 1.5rem;
+}
+
+.five-button-two{
+    width: 15rem;
+}
+
+.five-com-procent > p > span {
+    font-size: 3.5rem;
+    color: #540B51;
+}
+
+.five-com-procent > p {
+    text-align: center;
+    width: 13rem;
+    font-weight: 900;
+}
+
+.slack-comunication-procent{
+    width: 100vw;
+    justify-content: space-around;
+}
+
+.slack-comunication-procent > li > p {
+    text-align: start;
+    margin: 0;
+}
+
+/* section six */
+
+.section-six {
+    height: 20rem;
+}
+
+.section-six > h3 {
+    font-size: 3rem;
+}
+
+.section-six > button {
+    width: 75vw;
+    height: 5rem;
+    border-radius: 7px;
+}
+
+.six-button-one {
+    background-color: white;
+    color: #540B51;
+}
+
+.six-button-two {
+    background-color: #540B51;
+    border: 1px solid white;
+    color: white;
+}
+
+/* footer */
+
+footer > div:first-of-type {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+footer > div:first-of-type > ul > li {
+    width: 10rem;
+}
+
+footer > ul:first-of-type {
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+footer > ul:last-of-type {
+    width: 40vw;
+}
+
+footer > ul:last-of-type > li > i {
+    font-size: 2rem; 
+  }
+
+  footer div:last-child {
+    font-size: medium;
+   }
+
+
+}

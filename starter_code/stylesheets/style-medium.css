@@ -1,0 +1,312 @@
+@media screen and (min-width: 1024px) and (max-width: 1440px) {
+    
+.nav-menu {
+    display: flex;
+    justify-content: space-around ;
+}
+
+nav > div:first-child {
+    display: flex;
+    align-items: center;
+}
+
+/* nav > div:first-child > ul {
+    height: 3rem;
+} */
+    
+#drop-menu {
+    display: block;
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    width: 40vw;
+}
+
+#drop-menu > li > a {
+    height: 5rem;
+    color: white;
+    text-decoration: none;
+    font-size: x-large;
+
+}
+
+nav > div:last-child > button:last-of-type {
+    display: none; 
+}
+     
+nav > div:last-child {
+    display: flex;
+    align-items: center;
+    width: fit-content;
+    padding: 0;
+    margin: 0;
+}
+
+nav > div:last-child > ul {
+    display: flex;
+    list-style: none;
+    text-decoration: none;
+    padding: 0;
+}
+
+nav > div:last-child > ul > li   {
+    width: 7rem;
+    text-align: center;
+}
+
+nav > div:last-child > ul > li > a {
+    color: white;
+    text-decoration: none;
+    font-size: x-large;
+}
+
+.slack-logo {
+    margin-left: 0;
+}
+
+/* nav > div:last-child > ul > li:last-child > a {
+    color: #540B51;
+} */
+
+/* nav > div:last-child > ul > li:last-child {
+    height: 3rem;
+    width: 9rem;
+    background-color: white;
+} */
+
+/* header */
+
+.header-section {
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    padding-bottom: 5rem;
+}
+
+
+.header-info {
+    width: 70vw;
+    align-items: flex-start;
+    margin: 3rem 3rem 3rem 1rem;
+}
+
+.header-info > h1 {
+    text-align: start;
+    width: 50vw;
+    font-size: 7rem
+}
+
+.header-info > p {
+    text-align: start;
+    font-size: 2.5rem;
+}
+
+
+.buttons {
+    width: 50vw;
+    height: 5rem;
+}
+
+.buttons-two {
+    height: 5rem;
+    position: relative;
+}
+
+.button-two-text {
+   padding-left: 1.4rem;
+}
+
+.button-google-logo {
+    height: 3.5rem;
+    margin: .5rem;
+    position: absolute;
+}
+
+
+.img-slack {
+    width: 100vw;
+    height: 50vh;
+    background-image: url(../images/hero-product-ui.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-position-x: left;
+}
+
+/* section two  */
+
+.companies-logo {
+    height: 3rem; 
+}
+
+
+.section-two {
+    display: flex;
+    align-items: center;
+}
+
+.section-img {
+    content: url(../images/connectedness.png) !important ;
+    object-fit: fill;
+    width: 45vw;
+    height: 38vh;
+    margin-top: 8rem;
+}
+
+.section-two-info{
+    margin: 0 9rem 0 9rem;
+
+}
+
+/* section three */
+
+.section-three{
+    display: flex;
+    flex-direction: row-reverse;
+
+}
+
+.connectedness-img-three {
+    content: url(../images/flexibility.png);    
+    object-fit: fill;
+    width: 45vw;
+    height: 38vh;
+    margin-top: 5rem;
+}
+
+/* section four */
+
+.section-four {
+    display: flex;
+}
+
+.img-four  {
+    content: url(../images/speed.png);
+    object-fit: fill;
+    width: 45vw;
+    height: 38vh;
+    margin-top: 4rem;
+}
+
+/* section vife */
+
+
+.section-five > div, .slack-comunication-procent {
+    display: flex;
+    flex-direction: row;
+}
+
+.section-five > h3 {
+    font-size: 2.5rem;
+}
+
+.section-five > p {
+    text-align: center;
+    font-size: 1.6rem;
+}
+
+.buttons-section-five {
+    display: flex;
+
+}
+
+.five-button-one, .five-button-two {
+    height: 4rem;
+    border-radius: 7px;
+}
+
+.five-button-one {
+    width: 23rem;
+    margin-right: 1.5rem;
+}
+
+.five-button-two{
+    width: 15rem;
+}
+
+.five-com-procent > p > span {
+    font-size: 3.5rem;
+    color: #540B51;
+}
+
+.five-com-procent > p {
+    text-align: center;
+    width: 13rem;
+    font-weight: 900;
+}
+
+.slack-comunication-procent{
+    width: 100vw;
+    justify-content: space-around;
+}
+
+.slack-comunication-procent > li > p {
+    text-align: start;
+    margin: 0;
+}
+
+/* section six */
+
+.section-six {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-end;
+    height: 15rem;
+
+}
+
+.section-six > h3 {
+    position: absolute;
+    padding: 0 0 5vw 0;
+}
+
+.six-button-one {
+    background-color: white;
+    color: #540B51;
+    width: 15vw !important;
+    height: 4rem !important;
+    border-radius: 4px !important;
+    margin-right: 3rem;
+}
+
+.six-button-two {
+    background-color: #540B51;
+    border: 1px solid white;
+    color: white;
+    width: 15vw !important;   
+    height: 4rem !important;
+    border-radius: 4px !important;
+}
+
+/* footer */
+
+footer > div:first-of-type {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+footer > div:first-of-type > ul > li {
+    width: 10rem;
+}
+
+footer > ul:first-of-type {
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+footer > ul:last-of-type {
+    width: 33vw;
+}
+
+footer > ul:last-of-type > li > i {
+    font-size: 2rem; 
+  }
+
+  footer div:last-child {
+    font-size: medium;
+   }
+
+
+
+}

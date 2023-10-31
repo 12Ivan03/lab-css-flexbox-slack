@@ -12,6 +12,12 @@ nav, header {
     background-color: #540B51;
 }
 
+
+
+nav > div:last-of-type > ul {
+    display: none;
+}
+
 .nav-menu {
     display: flex;
     align-items: center;
@@ -167,6 +173,7 @@ main {
     flex-direction: row;
     justify-content: space-evenly;
     flex-wrap: wrap;
+    width: 90vw;
 }
 
 .companies-logo {
@@ -212,7 +219,6 @@ main {
     display:inline-block;
     transform:scale(1,1);
 }
-
 
 /* section three to five*/
 
@@ -401,8 +407,6 @@ footer div:last-child {
  letter-spacing: .05rem;
  margin: 0 2rem 4rem 2rem ;
 }
-
-
 
 @media screen and (max-width: 440px) {
  
